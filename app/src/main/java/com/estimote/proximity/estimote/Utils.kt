@@ -22,11 +22,11 @@ object Utils {
 
             "candy" -> Color.rgb(219, 122, 167)
 
-            "mint" -> Color.rgb(155, 186, 160)
+            "Place Publique" -> Color.rgb(155, 186, 160)
 
-            "beetroot" -> Color.rgb(84, 0, 61)
+            "Cuisine" -> Color.rgb(84, 0, 61)
 
-            "lemon" -> Color.rgb(195, 192, 16)
+            "Chambre" -> Color.rgb(195, 192, 16)
 
             else -> R.color.defaultContentBackground
         }
