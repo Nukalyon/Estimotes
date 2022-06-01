@@ -25,12 +25,12 @@ class ProximityContentManager(private val context: Context) {
                 .onError { throwable ->
                     Log.e("app", "proximity observer error: $throwable")
                 }
-                .withBalancedPowerMode()
+                .withLowLatencyPowerMode()
                 .build()
 
         val zone = ProximityZoneBuilder()
                 .forTag("mattys-gervais1-uqac-ca-s--033")
-                .inNearRange()
+                .inCustomRange(3.0)
                 .onContextChange { contexts ->
                     val nearbyContent = ArrayList<ProximityContent>(contexts.size)
                     for (context in contexts) {
