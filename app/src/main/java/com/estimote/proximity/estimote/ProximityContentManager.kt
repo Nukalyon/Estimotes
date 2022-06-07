@@ -30,7 +30,7 @@ class ProximityContentManager(private val context: Context) {
 
         val zone = ProximityZoneBuilder()
                 .forTag("mattys-gervais1-uqac-ca-s--033")
-                .inCustomRange(3.0)
+                .inCustomRange(1.6)
                 .onContextChange { contexts ->
                     val nearbyContent = ArrayList<ProximityContent>(contexts.size)
                     for (context in contexts) {

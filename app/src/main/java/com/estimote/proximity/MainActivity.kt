@@ -55,5 +55,6 @@ class MainActivity : AppCompatActivity() {
     fun setNearbyContent(nearbyContent: List<ProximityContent>) {
         proximityContentAdapter?.setNearbyContent(nearbyContent)
         proximityContentAdapter?.notifyDataSetChanged()
+        ProximityManager.addListOfBeacons(nearbyContent)
     }
 }
