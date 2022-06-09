@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     private var proximityContentManager: ProximityContentManager? = null
     private var proximityContentAdapter: ProximityContentAdapter? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

@@ -35,8 +35,8 @@ class ProximityContentAdapter(private val context: Context) : BaseAdapter() {
         return 0
     }
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
-        var convertView = convertView
+    override fun getView(position: Int, _convertView: View?, parent: ViewGroup): View {
+        var convertView = _convertView
         if (convertView == null) {
             val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
