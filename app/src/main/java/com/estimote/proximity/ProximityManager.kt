@@ -1,15 +1,22 @@
 package com.estimote.proximity
 
+import android.app.Fragment
+import android.app.FragmentManager
+import android.app.FragmentTransaction
 import com.estimote.proximity.estimote.ProximityContent
+import com.estimote.proximity.fragments.Frag_Chambre
+import com.estimote.proximity.fragments.Frag_Cuisine
+import com.estimote.proximity.fragments.Frag_Place_Publique
 import kotlin.collections.ArrayList
 
 object ProximityManager {
     //TODO add data to change user/tags for beacon id
     //TODO unit test to check if all beacons that user has ^ has a mapping
+    private var fragmentManager : FragmentManager? = null
     private val listOfLastScans : MutableList<List<ProximityContent>> = ArrayList()
     private var listOfAllBeacons : MutableList<ProximityContent> = ArrayList()
     private var currentBeaconTitle : String? = null
-    private var beaconToFragmentMap : Map<String,String> = mapOf("Chambre" to "Scanner","Cuisine" to "Recipe","Place Publique" to "Scanner")
+    private var beaconToFragmentMap : Map<String,Fragment> = mapOf("Chambre" to Frag_Chambre.newInstance(),"Cuisine" to Frag_Cuisine.newInstance(),"Place Publique" to Frag_Place_Publique.newInstance())
     fun addListOfBeacons(listOfBeacons:List<ProximityContent>){
         if(listOfBeacons.isNotEmpty()){
 
@@ -53,12 +60,17 @@ object ProximityManager {
             beaconTitle = biggestBeaconCountTitle
         }
         if (currentBeaconTitle != beaconTitle){
-            changeToFragment(beaconTitle)
+            val to_fragment:Fragment = beaconToFragmentMap[beaconTitle]!!
+            changeToFragment(to_fragment)
         }
     }
-    private fun changeToFragment(beaconTitle: String){
-        currentBeaconTitle=beaconTitle
-        //TODO change content/fragment
-        println("Changing to fragment of beacon $beaconTitle")
+    private fun changeToFragment(fragment: Fragment){
+        println("Changing to fragment $fragment")
+        val transaction: FragmentTransaction = fragmentManager!!.beginTransaction()
+        transaction.replace(R.id.fragment_container,fragment)
+        transaction.commit()
+    }
+    fun setFragmentManager(_fragmentManager: FragmentManager){
+        fragmentManager = _fragmentManager
     }
 }

@@ -48,4 +48,5 @@ dependencies {
 
     // for compatibility with Android 10, also add:
     implementation 'com.estimote:scanning-plugin:0.25.4'
+
 }

@@ -3,6 +3,9 @@
     <color name="colorPrimary">#A0A9AC</color>
     <color name="colorPrimaryDark">#6D7679</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#9f0d0d</color>
+    <color name="colorBlue">#0d20a1</color>
+    <color name="colorGreen">#0da11c</color>
 
     <color name="defaultContentBackground">#A0A9AC</color>
 </resources>

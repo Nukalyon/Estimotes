@@ -3,7 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/activity_main_fragment.xml" value="0.1" />
         <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/content_view.xml" value="0.2" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_chambre.xml" value="0.1" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_cuisine.xml" value="0.25" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_dashboard.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_home.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_notifications.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_place_publique.xml" value="0.1" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_recette.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/fragment_recipe2.xml" value="0.25" />
+        <entry key="..\:/Users/matty/Downloads/mattys-gervais1-uqac-ca-s--033_1653421913354/Proximity/app/src/main/res/layout/old_activity_main.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>

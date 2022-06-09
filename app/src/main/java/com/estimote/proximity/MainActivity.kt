@@ -22,9 +22,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        proximityContentAdapter = ProximityContentAdapter(this)
+        /*proximityContentAdapter = ProximityContentAdapter(this)
         val gridView = findViewById<GridView>(R.id.gridView)
-        gridView.adapter = proximityContentAdapter
+        gridView.adapter = proximityContentAdapter*/
 
 
         RequirementsWizardFactory
@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startProximityContentManager() {
+        ProximityManager.setFragmentManager(fragmentManager)
         proximityContentManager = ProximityContentManager(this)
         proximityContentManager?.start()
     }
