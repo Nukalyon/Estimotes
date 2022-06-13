@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         /*proximityContentAdapter = ProximityContentAdapter(this)
         val gridView = findViewById<GridView>(R.id.gridView)
         gridView.adapter = proximityContentAdapter*/

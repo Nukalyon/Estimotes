@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ProximityContent</string>
+    <string name="app_name">Proximity Content Kotlin</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="cuisine_fragment">Vous êtes dans la cuisine!</string>
     <string name="place_publique_fragment">Vous êtes dans la place publique!</string>

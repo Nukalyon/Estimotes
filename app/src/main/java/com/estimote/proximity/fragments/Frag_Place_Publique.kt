@@ -73,7 +73,7 @@ class Frag_Place_Publique : Fragment() {
             myLocationOverlay.isDrawAccuracyEnabled = true
             // Zoom vers la pos
             map.controller.animateTo(myLocationOverlay.myLocation)
-            map.controller.setZoom(10.0)
+            map.controller.setZoom(15.0)
             map.overlays.add(myLocationOverlay)
 
             // Scale Bar

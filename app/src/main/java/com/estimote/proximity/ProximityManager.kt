@@ -16,7 +16,8 @@ object ProximityManager {
     private val listOfLastScans : MutableList<List<ProximityContent>> = ArrayList()
     private var listOfAllBeacons : MutableList<ProximityContent> = ArrayList()
     private var currentBeaconTitle : String? = null
-    private var beaconToFragmentMap : Map<String,Fragment> = mapOf("Chambre" to Frag_Chambre.newInstance(),"Cuisine" to Frag_Cuisine.newInstance(),"Place Publique" to Frag_Place_Publique.newInstance())
+    private var beaconToFragmentMap : MutableMap<String,Fragment> =
+        mapOf("Chambre_Mattys" to Frag_Chambre.newInstance(),"Cuisine" to Frag_Cuisine.newInstance(),"Place Publique" to Frag_Place_Publique.newInstance()) as MutableMap<String, Fragment>
     fun addListOfBeacons(listOfBeacons:List<ProximityContent>){
         if(listOfBeacons.isNotEmpty()){
 
