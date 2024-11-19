@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/layout_activity_configure_beacon.xml.flat",
+        "source": "com.estimote.configuration.app-main-9:/layout/activity_configure_beacon.xml"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.estimote.configuration.app-main-9:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/layout_activity_main.xml.flat",
+        "source": "com.estimote.configuration.app-main-9:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.estimote.configuration.app-main-9:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.estimote.configuration.app-main-9:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.estimote.configuration.app-main-9:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.estimote.configuration.app-merged_res-7:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.estimote.configuration.app-main-9:/mipmap-mdpi/ic_launcher.png"
+    }
+]

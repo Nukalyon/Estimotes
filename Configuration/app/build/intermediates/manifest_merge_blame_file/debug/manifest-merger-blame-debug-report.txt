@@ -1,0 +1,104 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.estimote.configuration"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="23" />
+9-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:4:5-79
+11-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:4:22-76
+12
+13    <!-- Needed for Bluetooth low energy scanning. -->
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:10:5-68
+14-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- Needed for Bluetooth scanning on Android M and above. -->
+15-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:11:5-74
+15-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:11:22-71
+16    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Needed for Estimote Cloud. -->
+16-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:13:5-88
+16-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:13:29-85
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:15:5-67
+17-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:15:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:16:5-79
+18-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:16:22-76
+19
+20    <uses-feature
+20-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:18:5-20:36
+21        android:name="android.hardware.bluetooth_le"
+21-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:19:9-53
+22        android:required="false" />
+22-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:20:9-33
+23
+24    <application
+24-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:5:5-20:19
+25        android:name="com.estimote.configuration.ConfigurationApplication"
+25-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:6:9-75
+26        android:allowBackup="true"
+26-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:7:9-35
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:8:9-43
+29        android:label="@string/app_name"
+29-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:9:9-41
+30        android:supportsRtl="true"
+30-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:10:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:11:9-40
+33        <activity android:name="com.estimote.configuration.MainActivity" >
+33-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:12:9-18:20
+33-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:12:19-47
+34            <intent-filter>
+34-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:13:13-17:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:14:17-69
+35-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:14:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:16:17-77
+37-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:16:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.estimote.configuration.ConfigureBeaconActivity" />
+40-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:19:9-70
+40-->C:\Users\fruto\Desktop\Configuration\app\src\main\AndroidManifest.xml:19:19-58
+41
+42        <service
+42-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:23:9-25:40
+43            android:name="com.estimote.sdk.service.BeaconService"
+43-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:24:13-66
+44            android:exported="false" />
+44-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:25:13-37
+45        <service android:name="com.estimote.sdk.repackaged.dfu_v0_6_1.no.nordicsemi.android.dfu.DfuBaseService" />
+45-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:26:9-115
+45-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:26:18-112
+46
+47        <activity
+47-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:28:9-30:56
+48            android:name="com.estimote.sdk.DefaultRequirementsCheckerCallback$Activity"
+48-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:29:13-88
+49            android:theme="@style/Theme.Transparent" />
+49-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:30:13-53
+50
+51        <receiver android:name="com.estimote.sdk.service.BeaconService$ScanAlarmBroadcastReceiver" />
+51-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:32:9-102
+51-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:32:19-99
+52
+53        <service
+53-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:34:9-36:40
+54            android:name="com.estimote.sdk.connection.internal.DeviceConnectionProviderService"
+54-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:35:13-96
+55            android:exported="false" />
+55-->[com.estimote:sdk:0.16.0] C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\AndroidManifest.xml:36:13-37
+56    </application>
+57
+58</manifest>

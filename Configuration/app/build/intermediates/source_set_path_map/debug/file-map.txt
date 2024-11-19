@@ -1,0 +1,10 @@
+com.estimote.configuration.app-sdk-0.16.0-0 C:\Users\fruto\.gradle\caches\transforms-3\c5d57a0afd7dfe3aff622cc547015e36\transformed\sdk-0.16.0\res
+com.estimote.configuration.app-appcompat-v7-23.4.0-1 C:\Users\fruto\.gradle\caches\transforms-3\f396f6889604f318247a243f0d3e018a\transformed\appcompat-v7-23.4.0\res
+com.estimote.configuration.app-pngs-2 C:\Users\fruto\Desktop\Configuration\app\build\generated\res\pngs\debug
+com.estimote.configuration.app-resValues-3 C:\Users\fruto\Desktop\Configuration\app\build\generated\res\resValues\debug
+com.estimote.configuration.app-rs-4 C:\Users\fruto\Desktop\Configuration\app\build\generated\res\rs\debug
+com.estimote.configuration.app-mergeDebugResources-5 C:\Users\fruto\Desktop\Configuration\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.estimote.configuration.app-mergeDebugResources-6 C:\Users\fruto\Desktop\Configuration\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.estimote.configuration.app-merged_res-7 C:\Users\fruto\Desktop\Configuration\app\build\intermediates\merged_res\debug
+com.estimote.configuration.app-debug-8 C:\Users\fruto\Desktop\Configuration\app\src\debug\res
+com.estimote.configuration.app-main-9 C:\Users\fruto\Desktop\Configuration\app\src\main\res

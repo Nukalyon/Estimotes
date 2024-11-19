@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.estimote.configuration.app-mergeDebugResources-5:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\fruto\\.gradle\\caches\\transforms-3\\f396f6889604f318247a243f0d3e018a\\transformed\\appcompat-v7-23.4.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
